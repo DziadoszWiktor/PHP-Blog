@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*,html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/img1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#container{
+	width:80%;
+	height:500px;
+	margin:8%;
+	background-color:black;
+}
+.post-box{
+	width:100%;
+	height:100%;
+	//display:flex;
+}
+.input-field{
+	border:none;
+	width:45%;
+	height:50px;
+	background-color:white;
+	margin:35px;
+        font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	border-radius:3px;
+}
+.text-area{
+	border:none;
+	width:95%;
+	height:250px;
+	margin-left:35px;
+        font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	border-radius:3px;
+}
+.post-butt{
+	border:none;
+	width:95%;
+	height:50px;
+	background-color:white;
+	margin:30px;
+        font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	border-radius:3px;
+}
+.post-butt:hover{
+	cursor:pointer;
+	background-color:grey;
+}
+.header-title{
+	font-family: 'Oswald', sans-serif;
+	font-size:50px;
+	text-align:center;
+	color:white;
+	margin-top:100px;
+}
+@media only screen and (max-width: 1900px) {
+	.input-field{
+		width:40%;	
+	}
+	.post-butt{
+		width:90%;
+	}
+	.text-area{
+		width:90%;	
+	}
+}
+@media only screen and (max-width: 460px) {
+	.text-area{
+		width:85%;
+		height:200px;
+	}
+	.input-field{
+		width:35%;
+		margin:30px;		
+	}
+	.post-butt{
+		width:85%;
+	}
+	#container{
+		height:450px;
+	}
+}
+

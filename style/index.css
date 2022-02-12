@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+*,html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+#container{
+    width: 100%;
+}
+.figurenav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.figuretit{
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    background-color:white;
+
+}
+.figureph{
+    width: 90%;
+    height: 900px;
+    margin-left: 5%;
+    background-image: url(../img/img2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+.figureposts{
+    width: 90%;
+    /*height: 100%;*/
+    margin-left: 5%;
+    background-color: white;
+    display: flex;
+}
+.rect1{
+    width: 70%;
+    //background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.rect2{
+    width: 30%;
+    background-color: rgb(39, 39, 39);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.post{
+    background-color: black;
+    width: 550px;
+    height: 550px;
+    margin: 20px;
+    //width: 400px;
+    //height: 400px;
+    //margin: 38px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+.post:hover{
+    background-color: rgb(39, 39, 39);
+}
+.postt{
+    margin-top:100px;	
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.contact{
+    color: white;
+    padding: 400px 0;
+    margin-left: 20px;
+}
+
+.contact-button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    opacity: 0.4;
+    cursor:pointer;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.contact-button:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+a { 
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    display: flex;
+    /*justify-content: space-around;
+    align-items: center;*/
+}
+li{
+    display: inline;
+    align-items: center;
+    text-align: center;
+    /*margin-top: 12px;*/
+    padding: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+li:hover{
+    color:grey;
+}
+.footer-top{
+    color: white;
+    display: flex;
+    /*
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    */
+    height: 300px;
+    background-color: black;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+}
+.box1{
+    width: 87%;
+    /*width: 450px;*/
+    height: 450px;
+    margin: 30px;
+    background-image: url(../img/img3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.box2{
+    /*width: 89%;*/
+    width: 89%;
+    height: 100px;
+    margin:30px;
+}
+.frect1{
+    width: 50%;
+    /*background-color: grey;*/
+    height: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.frect2{
+    width: 50%;
+    height: 85%;
+    margin: 20px;
+}
+.icon-location{
+    font-size: 30px;
+    margin: 30px;
+}
+.icon-phone{
+    font-size: 30px;
+    margin: 30px;
+}
+.icon-mail{
+    font-size: 30px;
+    margin: 30px;
+}
+.icon-p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+}
+.iconss{
+    text-align: center;
+}
+.social{
+    display: flex;
+}
+.footertit{
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;  
+}
+.social-icon{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.social-icon:hover{
+    color: grey;
+}
+.footer-r-p{
+    font-family: 'Oswald', sans-serif;
+}
+.icon-user2{
+    font-size:30px;
+    color:white;
+    background-color:grey;
+    border-radius:10px;
+}
+.box-text{
+    width:100%;
+    height:30%;
+    background-color:black;
+    margin-top:315px;
+    opacity:0.7;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+    font-size:15px;
+}
+.search-box{
+    width:90%;
+    height:50px;
+    margin:20px;
+    font-family: 'Oswald', sans-serif;
+    font-size:25px;
+    background-color:white;
+    color:black;
+    border:none;
+}
+.comment-form{
+    width:100%;
+    background-color:rgb(39, 39, 39);
+    font-family: 'Oswald', sans-serif;
+}
+hr{
+   width:50%;
+}
+.comment-input{
+    width:400px;
+    height:40px;
+    margin:20px;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+}
+.comment-button{
+   width:400px;
+   margin:20px;
+   height:40px;
+   font-family: 'Oswald', sans-serif;
+   font-size:20px;
+}
+.comment-input-content{
+    all:none;
+    width:850px;
+    margin:20px;
+    height:40px;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+}
+.comment-button:hover{
+    cursor:pointer;
+    color:grey;
+}
+.post-icon-creator{
+    display:flex;
+    margin-top:20px;
+}
+.icon-user1{
+    margin:20px;
+    font-size:30px;
+    width:20px;
+}
+.post-creator{
+    width:95%;
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    margin:15px;
+}
+.post-time{
+    width:95%;
+    font-size:15px;
+    font-family: 'Oswald', sans-serif;
+    margin:10px;
+
+}
+.post-title{
+    width:95%;
+    font-size:40px;
+    font-family: 'Oswald', sans-serif;
+    margin:10px;
+    text-align:center;
+}
+.post-content{
+    width:95%;
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    margin:20px;
+    text-align:left;
+}
+.comment{
+   width:30%;
+   height:15%px;
+   margin:25px;
+   background-color:black;
+   color:white;
+   font-family: 'Oswald', sans-serif;
+   border-radius:5px;
+}
+.comment-creatorr{
+   margin:5px;
+   font-size:20px;
+   text-align:center;
+}
+.comment-time{
+   margin:5px;
+   font-size:13px;
+   text-align:center;
+}
+.comment-title{
+   margin:5px;
+   font-size:20px;
+}
+.comment-text{
+   margin:5px;
+   font-size:25px;
+}
+@media only screen and (max-width: 460px) {
+  body {
+    width:540px;
+  }
+  .footer-top{
+    height:300px;
+  }
+  .post{
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    font-size:10px;
+  }
+  .postt{
+    margin-top: 30px;
+  }
+  .rect1{
+    width:100%;
+  }
+  .rect2{
+    display:none;
+  }
+  .comment-form{
+     width:540px;
+  }
+  .comment-input-content{
+     width:400px;
+  }
+  .comment{
+     width:250px;
+  }
+}
+@media only screen and (max-width: 1900px) {
+  .post{
+    width: 400px;
+    height: 400px;
+    margin: 38px;
+    font-size:15px;
+    //background-color:red;
+  }
+  .postt{
+    margin-top: 70px;
+  }
+}
